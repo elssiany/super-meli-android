@@ -13,7 +13,7 @@ Carga la lista de prodcutos de Mercado Libre, usando la API de TheSportsDB, tamb
 
 - Interfaz de usuario de material limpio y simple🤩.
 
-## usando [`Trello`](https://trello.com/)
+## Usando [`Trello`](https://trello.com/)
 Para gestionar tareas y aplicar correctamente metodologías ágiles se utilizó como complemento Trello, puedes ver el tablero de trabajo aquí [**(Super MELI Tablero)**](https://trello.com/b/iNF1gq5X/super-meli-android) Trello.
 
 
