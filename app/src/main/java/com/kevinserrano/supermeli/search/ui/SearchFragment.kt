@@ -87,7 +87,7 @@ class SearchFragment : Fragment() {
             setTitle(R.string.filter_search)
             setMultiChoiceItems(
                 R.array.filter_items, null
-            ) { dialog, which, isChecked ->
+            ) { _, which, isChecked ->
                 val selectTag = tags[which]
                 var uncheckPosi = -1
                 if (isChecked) {
