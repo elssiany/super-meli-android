@@ -1,5 +1,8 @@
 # Super MELI App 🛍️
 
+
+![](https://github.com/kevinserranoapps/super-meli-android/raw/develop/screenshot/Super-Meli-Test.gif)
+
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Super MELI es una aplicación de Android de muestra y busca productos en Mercado Libre 🛍️ creada para demostrar el uso de herramientas modernas de desarrollo de Android (Kotlin, componentes de arquitectura, arquitectura limpia con MVVM, Room, componentes de materiales).
@@ -43,6 +46,10 @@ Puedes ver aquí [**Postman Docs)**](https://www.postman.com/cryosat-physicist-3
 Esta aplicación utiliza [(**Clean Architecture with MVVM)**](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture) architecture.
 
 ![](https://github.com/kevinserranoapps/super-meli-android/raw/develop/screenshot/arquitectura-supermeli.png)
+
+
+
+
 
 ## Contact
 Si necesitas ayuda, puedes conectarte conmigo.
