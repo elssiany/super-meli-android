@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name" translatable="false">Super MELI</string>
+    <!-- HOME -->
+    <string name="search_home">Buscar productos</string>
+    <string name="hi_meli">Hola! 👋</string>
+    <string name="retry">Vuelve a intentarlo</string>
+    <string name="just_check_connection">Solo revisa la conexión.</string>
+    <string name="keep_calm">Mantén la calma,</string>
+    <string name="there_no_Internet">No hay internet.</string>
+    <string name="oops">Oops!! 😱</string>
+    <string name="welcome_messages"><![CDATA[Descubre todo lo que <font color=\'#3483F9\'><strong>Mercado Libre</strong></font> tiene para ti]]></string>
+    <string name="loading">Cargando…</string>
+    <string name="search_in_mercado_libre">Buscar en Mercado Libre</string>
+    <string name="search_in_mercado_libre_blue"><![CDATA[Buscar en <font color=\'#FDE500\'><strong>Mercado Libre</strong></font>]]></string>
+    <string name="last_viewed">Últimos vistos</string>
+    <!-- Article Item -->
+    <string name="recommended">Recomendado</string>
+    <string name="shipping">Envío gratis</string>
+    <string name="neww">● Nuevo</string>
+    <string name="use">Usado</string>
+    <string name="for_category"><![CDATA[Para <font color=\'#06289F\'>%s</font>]]></string>
+    <!-- Article Detail -->
+    <string name="seller"><![CDATA[Vendedor: <br/><a href="%s">%s</a>]]></string>
+    <string name="content_description_image_article">Imagen del producto</string>
+    <string name="buy">Comprar ahora</string>
+    <string name="descripcion">Descripción</string>
+    <string name="characteristic">Características</string>
+    <!-- Search -->
+    <string name="lower_price">Menor precio</string>
+    <string name="higher_price">Mayor precio</string>
+    <string name="filter_articles">Filtrar productos</string>
+    <string name="filter_search">Filtrar tu busqueda:</string>
+    <string name="filter">Filtrar</string>
+    <string name="cancel">Cancelar</string>
+    <!-- Empty-->
+    <string name="empty_message">No se encontraron resultados :(</string>
+</resources>

@@ -1,0 +1,49 @@
+
+project.ext {
+
+    //Architecture components
+    lifecycle_runtime = '2.6.0-beta01'
+    lifecycle_version = '2.6.0-beta01'
+    core_ktx = '1.9.0'
+    appcompat = '1.6.1'
+    //UI
+    core_splashscreen = '1.0.0'
+    android_material = '1.8.0'
+    constraintlayout = '2.1.4'
+    coordinatorlayout = '1.2.0'
+    //Animations
+    lottie = '5.2.0'
+    //Firebase
+    firebase_crashlytics = '18.3.5'
+    firebase_analytics = '21.2.0'
+    //Timber
+    timber = '5.0.1'
+    //Dagger Hilt
+    hilt_android = '2.44.2'
+    hilt_dagger_compiler = '2.44.2'
+    //Glide
+    glide = '4.14.2'
+    //Navigation Fragment
+    navigation_fragment = '2.5.3'
+    navigation_ui = '2.5.3'
+    //Tests
+    junit = '4.13.2'
+    test_ext_junit = '1.1.5'
+    espresso_core = '3.5.1'
+    core_testing = '2.1.0'
+    test_core_ktx = '1.5.0'
+    kotlin_reflect = '1.8.0'
+    hilt_android_testing = '2.44.2'
+    espresso_contrib = '3.5.1'
+    espresso_intents = '3.5.1'
+    annotation = '1.5.0'
+    //Mockk
+    mockk = '1.12.2'
+    coroutines_test = '1.6.1'
+    //Retrofit
+    retrofit = '2.9.0'
+    logging_interceptor = '5.0.0-alpha.2'
+    //Room
+    room = '2.5.0'
+
+}

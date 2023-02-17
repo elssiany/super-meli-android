@@ -1,0 +1,52 @@
+[
+  {
+    "id": "MCO1747",
+    "name": "Vehículos",
+    "imageName": "home_carros"
+  },
+  {
+    "id": "MCO1071",
+    "name": "Mascotas",
+    "imageName": "home_mascotas"
+  },
+  {
+    "id": "MCO1368",
+    "name": "Papelería",
+    "imageName": "home_papeleria"
+  },
+  {
+    "id": "MCO1246",
+    "name": "Belleza",
+    "imageName": "home_belleza"
+  },
+  {
+    "id": "MCO1743",
+    "name": "Carros",
+    "imageName": "home_carros"
+  },
+  {
+    "id": "MCO1051",
+    "name": "Celulares",
+    "imageName": "home_celulares"
+  },
+  {
+    "id": "MCO1144",
+    "name": "Consolas",
+    "imageName": "home_consola"
+  },
+  {
+    "id": "MCO5726",
+    "name": "Electrodomésticos",
+    "imageName": "home_electrodomesticos"
+  },
+  {
+    "id": "MCO1459",
+    "name": "Inmuebles",
+    "imageName": "home_muebles"
+  },
+  {
+    "id": "MCO1132",
+    "name": "Juegos",
+    "imageName": "home_juegos"
+  }
+]

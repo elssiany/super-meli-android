@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_marginTop="-10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".detail.ui.ArticleDetailActivity"
+    tools:showIn="@layout/activity_article_detail">
+
+   <LinearLayout
+       android:paddingStart="16dp"
+       android:paddingEnd="16dp"
+       android:paddingBottom="60dp"
+       android:paddingTop="16dp"
+       android:backgroundTint="#FFFFFF"
+       android:background="@drawable/rectangle_top_corner_white"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_marginTop="16dp"
+           android:textSize="16sp"
+           android:textColor="@color/blue_3483F9"
+           android:id="@+id/tvSeller"
+           android:textAppearance="@style/TitleMediumTextAppearance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:text="Vendedor: POP Consolas" />
+
+       <TextView
+           tools:visibility="visible"
+           android:visibility="gone"
+           android:id="@+id/lbDescription"
+           android:layout_marginTop="16dp"
+           android:textSize="@dimen/sub_title_text"
+           android:textAppearance="@style/TitleMediumBoldTextAppearance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/descripcion" />
+
+       <TextView
+           android:id="@+id/tvDescription"
+           android:textSize="@dimen/description_small_text"
+           android:textAppearance="@style/RegularMediumTextAppearance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:text="Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Duis lectus sapien, blandit in ligula a, tincidunt auctor magna. In sollicitudin tellus ac felis viverra congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas." />
+
+       <TextView
+           android:layout_marginTop="16dp"
+           android:textSize="@dimen/sub_title_text"
+           android:textAppearance="@style/TitleMediumBoldTextAppearance"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/characteristic" />
+
+       <TextView
+           android:id="@+id/tvCharacteristic"
+           android:textSize="@dimen/description_small_text"
+           android:textAppearance="@style/RegularMediumTextAppearance"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:text="\n● Tiene NFC: No\n\n● Es Dual SIM: Si" />
+
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

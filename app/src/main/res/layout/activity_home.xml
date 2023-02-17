@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.ui.HomeActivity">
+
+    <ImageView
+        android:id="@+id/bgTopBarHome"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/mercadolibre_yellow_light"
+        android:contentDescription="@null"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bgTopHome"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/mercadolibre_yellow_light"
+        android:contentDescription="@null"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/imagen_home_mercadolibre"
+        app:layout_constraintBottom_toBottomOf="@+id/bgTopHome" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/crop_circle_profile"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TitleTextAppearance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:text="@string/hi_meli" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="-130dp"
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintTop_toBottomOf="@+id/bgTopHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:navGraph="@navigation/navigation_home" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/fab"
+        app:backgroundTint="@color/blue_3483F9"
+        android:contentDescription="@string/search_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/ic_search" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

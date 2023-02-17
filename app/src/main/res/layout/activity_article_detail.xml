@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".detail.ui.ArticleDetailActivity">
+
+    <include
+        android:id="@+id/containerArticleDetailTitleInfo"
+        layout="@layout/content_article_detail_title_info" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/mercadolibre_yellow_light"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/containerArticleDetails"
+        layout="@layout/content_article_details" />
+
+    <com.google.android.material.button.MaterialButton
+        android:visibility="gone"
+        android:id="@+id/btnBuy"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/buy"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/blue_3483F9"
+        app:cornerRadius="30dp" />
+
+    <FrameLayout
+        android:visibility="gone"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:id="@+id/containerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

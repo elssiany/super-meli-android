@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">48dp</dimen>
+    <dimen name="recommended_text">7sp</dimen>
+    <dimen name="shipping_text">11sp</dimen>
+    <dimen name="condition_text">13sp</dimen>
+    <dimen name="title_text">12sp</dimen>
+    <dimen name="image_article">90dp</dimen>
+    <dimen name="item_article_height">110dp</dimen>
+    <dimen name="dues_text">11sp</dimen>
+    <dimen name="content_article_detail_title_info_height">400dp</dimen>
+    <dimen name="article_detail_title_text">20sp</dimen>
+    <dimen name="article_detail_original_price_text">16sp</dimen>
+    <dimen name="article_detail_price_text">20sp</dimen>
+    <dimen name="sub_title_text">16sp</dimen>
+    <dimen name="description_small_text">16sp</dimen>
+</resources>

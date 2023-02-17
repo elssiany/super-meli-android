@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_items">
+        <item>@string/shipping</item>
+        <item>@string/lower_price</item>
+        <item>@string/higher_price</item>
+        <item>@string/use</item>
+        <item>@string/neww</item>
+    </string-array>
+    <string-array name="filter_tags">
+        <item>free</item>
+        <item>price_asc</item>
+        <item>price_desc</item>
+        <item>used</item>
+        <item>new</item>
+    </string-array>
+</resources>

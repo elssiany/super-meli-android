@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_article_height"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/image_article"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/home_celulares" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="start"
+            android:textAppearance="@style/TitleMediumTextAppearance"
+            android:textSize="@dimen/title_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img"
+            app:layout_constraintTop_toBottomOf="@+id/lbRecommended"
+            tools:text="Samsung Galaxy A33 5g Dual Sim 128 Gb Awesome Black 6 Gb Ram" />
+
+        <TextView
+            android:id="@+id/tvCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="start"
+            android:textAppearance="@style/TitleSmallTextAppearance"
+            android:textSize="@dimen/condition_text"
+            android:textColor="@color/grey_979797"
+            app:layout_constraintStart_toEndOf="@+id/img"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:text="@string/neww" />
+
+        <TextView
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:id="@+id/lbShipping"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            style="@style/FreeShippingText"
+            app:layout_constraintStart_toEndOf="@+id/img"
+            app:layout_constraintTop_toBottomOf="@+id/tvCondition"
+            android:text="@string/shipping" />
+
+        <TextView
+            style="@style/FreeRecommendedText"
+            android:id="@+id/lbRecommended"
+            android:text="@string/recommended"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="start"
+            android:textAppearance="@style/TitleSmallBoldTextAppearance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/tvDues"
+            tools:text="$65.000.000" />
+
+        <TextView
+            android:id="@+id/tvDues"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:gravity="start"
+            android:textAppearance="@style/TitleSmallTextAppearance"
+            android:textSize="@dimen/dues_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="en 36x $12.890" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

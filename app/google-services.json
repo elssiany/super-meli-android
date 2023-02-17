@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "477225980694",
+    "project_id": "super-meli",
+    "storage_bucket": "super-meli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477225980694:android:22a0c1496868d326e43637",
+        "android_client_info": {
+          "package_name": "com.kevinserrano.supermeli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477225980694-s6db7a0rehjfh2fbi3c2a1q4he3m4s19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kevinserrano.supermeli",
+            "certificate_hash": "1be545b6de5066a78fb6fec3c58e1ef92ff455d0"
+          }
+        },
+        {
+          "client_id": "477225980694-qlmm5r1f2o9o5bm067btslc9vbb9k3oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMl4GsRCMod2MronH6wDYvHlc79u-aESk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477225980694-qlmm5r1f2o9o5bm067btslc9vbb9k3oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
